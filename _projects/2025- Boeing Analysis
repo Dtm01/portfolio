@@ -1,0 +1,52 @@
+---
+layout: project
+title: Boeing 737 Max Analysis
+description: Engineering Ethics Project
+technologies: []
+image: assets/images/boeing.png
+---
+
+The Boeing 737 MAX crisis represents one of the major ethical failures in modern engineering history. The two fatal crashes of Lion Air Flight 610 and Ethiopian Airlines Flight 302 exposed deep issues not only in technical design, but also in organizational culture, regulatory oversight, and ethical decision-making. This analysis examines the Boeing 737 MAX through an ethical lens using the ASME Canons of Ethics, focusing on key decisions surrounding MCAS, pilot training, FAA oversight, corporate pressure, and system reliability. It also incorporates material, individual, and organizational facts to evaluate responsibility and lessons for future engineering practice.
+
+
+<br><br>
+
+
+
+One major ethical question is whether Boeing should have removed information about the Maneuvering Characteristics Augmentation System (MCAS) from pilot manuals. This decision directly affected key stakeholders including the FAA, pilots, and airlines. By omitting MCAS from the manuals, pilots were unaware of a system that could repeatedly command nose-down trim, leaving them unprepared during emergencies. Relevant ASME Canons include Canon 1 (holding paramount the safety, health, and welfare of the public), Canon 4 (acting as faithful agents), Canon 7 (continuing professional development), and Canon 10 (acting with integrity). While several canons apply, Canon 10 ultimately trumps the others in this case. Removing MCAS from manuals violated integrity and transparency, eroding trust between Boeing, regulators, and pilots. Engineers and executives failed to communicate critical safety information, undermining ethical obligations to be truthful and open.
+
+<br><br>
+
+Another ethical issue is whether Boeing should have required more extensive pilot training for the 737 MAX. This decision affected pilots, airlines, and passengers. Boeing marketed the aircraft as requiring minimal additional training to remain competitive and reduce airline costs. Relevant ASME Canons include Canon 1 (public safety), Canon 2 (performing services only in areas of competence), Canon 4 (faithful agency), and Canon 10 (integrity). In this case, Canon 2 is the most critical. By assuming pilots could manage MCAS behavior without specific training, Boeing exceeded reasonable assumptions about pilot competence. Engineers and managers failed to ensure that operators were adequately prepared to safely use the system, placing economic considerations above professional responsibility.
+
+<br><br>
+
+A third ethical concern is whether the FAA should have exercised stronger oversight when certifying the 737 MAX under existing regulations. This decision affected Boeing, airlines, pilots, and passengers. Relevant ASME Canons include Canon 1 (public safety), Canon 4 (faithful agency), and Canon 6 (upholding the profession’s honor). Canon 1 ultimately trumps in this scenario. The FAA’s delegation of certification tasks to Boeing employees, due in part to their close working relationship, reduced independent oversight. This compromised the FAA’s ability to protect public safety and allowed critical design flaws to go insufficiently reviewed.
+
+<br><br>
+
+Another question is whether Boeing should have accepted pressure from airlines to develop what was marketed as a “new” upgraded aircraft rather than designing a truly new plane. Stakeholders included airlines, Boeing’s executive leadership, and the broader aviation industry. Relevant ASME Canons include Canon 2 (competence), Canon 4 (faithful agency), and Canon 7 (professional development). Canon 2 is most important here. In order to compete with Airbus and avoid costly retraining requirements, Boeing chose to modify an older airframe instead of designing a clean-sheet aircraft. This decision pushed engineers to rely on software like MCAS to compensate for aerodynamic changes caused by larger engines, stretching the limits of safe and competent design.
+
+
+<br><br>
+
+The final major ethical question is whether Boeing should have conducted more extensive testing on the reliability of MCAS. This decision affected Boeing executives, pilots, and passengers. Relevant ASME Canons include Canon 1 (public safety), Canon 3 (objective and truthful reporting), Canon 4 (faithful agency), Canon 8 (ethical responsibility), and Canon 10 (integrity). Canon 1 ultimately trumps. FAA findings later revealed that MCAS relied on a single angle-of-attack (AOA) sensor, lacked command limits, and could repeatedly activate without pilot awareness. Given these known risks, Boeing had an ethical obligation to conduct deeper testing and validation before allowing the aircraft to enter service.
+
+
+Several material facts contribute to this ethical analysis. FAA reports confirmed that reliance on a single AOA sensor was inherently unreliable. MCAS failure conditions required pilot intervention, yet pilots were given no training on the system. There was no MCAS command limit, allowing repeated nose-down inputs. The addition of larger engines introduced new flight conditions, and increased control column pull forces did not provide added stability. These technical realities directly contradict Boeing’s assurances that MCAS was a minor system unlikely to activate.
+<br><br>
+Individual actions and decisions also played a significant role. The firing of Boeing’s CEO contributed to organizational instability and a tendency to place blame on individuals rather than systemic failures. Internal communications showed that Boeing employee Mark Forkner assumed MCAS would not pose a risk because it was not expected to activate frequently. Forkner also suggested removing MCAS from pilot manuals, resulting in pilots being unaware of its existence. Political factors further complicated the situation, including President Trump canceling contracts with Boeing, damaging relationships between Boeing and the federal government. Congressional scrutiny increased when Representative Peter DeFazio requested a formal investigation, forcing a comprehensive review of Boeing’s practices.
+<br><br>
+Organizational factors reveal a deeper ethical breakdown. Boeing initially blamed pilots for the Lion Air crash, which pushed the company further into denial rather than self-reflection. The close relationship between Boeing and the FAA led to shared certification responsibilities without sufficient independence. Cost avoidance played a major role, as fixing issues or redesigning systems would have delayed deliveries amid a yearlong aircraft waitlist. Even after the first crash, Boeing allowed the 737 MAX to continue flying, a decision widely viewed as morally irresponsible and damaging to public trust.
+<br><br>
+Several important facts remain missing, requiring assumptions. MCAS may have been chosen as the primary stability solution due to lower cost and reduced training requirements. Allowing aircraft to continue flying after the Lion Air crash suggests Boeing prioritized reputation and profit over corrective action. The use of a single AOA sensor may reflect engineering oversight rather than deliberate negligence. The absence of MCAS limits likely stemmed from a desire to maximize stability under the assumption the system would rarely activate. Internal reviews of MCAS appear to have been rushed, overlooked, or conducted by certifiers without sufficient engineering expertise.
+<br><br>
+Practical constraints also shaped outcomes. Organizational hierarchy created pressure on engineers to approve designs quickly. Economic constraints pushed Boeing to certify the aircraft rapidly to meet demand. Individual engineers may have hesitated to raise concerns out of fear that projects would be delayed or rejected. These issues could be mitigated by ensuring Boeing employees involved in certification are trained by the FAA, promoting professional standards, and fostering a culture where safety concerns can be raised without fear.
+<br><br>
+Additional constraints include assumptions that other teams were responsible for safety features, regulatory managers delegating oversight without close attention, and the high cost of safer designs. These challenges could be addressed by incentivizing innovative safety solutions, improving organizational risk assessment structures, and rewarding engineers for proactive safety contributions.
+<br><br>
+Fear of job loss also discouraged ethical reporting. While policies may not explicitly threaten termination, organizational culture created implicit pressure. This could be prevented by providing job security assurances, encouraging union participation, and requiring leadership to actively report and resolve safety issues. Engineers must be empowered to speak openly in an environment that prioritizes ethical responsibility over speed.
+<br><br>
+Finally, certification authority should not be delegated entirely to manufacturers. The FAA must independently verify compliance, even for systems not explicitly outlined in standard operating procedures. This requires better training on FAA standards, sufficient time for review, and repeated testing. Boeing’s future path forward must include accepting legal responsibility, paying settlements, and undergoing deep cultural reform. Although costly and time-consuming, these changes are necessary to restore trust. Through enhanced safety training, stronger incentives for ethical behavior, and integrating safety checks throughout the design process, Boeing can begin to rebuild its reputation and reaffirm its commitment to engineering ethics.
+<br><br>
+The Boeing 737 MAX case demonstrates how ethical failures in engineering rarely stem from a single mistake, but rather from a convergence of technical shortcuts, organizational pressure, and weakened regulatory oversight. Decisions surrounding MCAS design, documentation, pilot training, and certification consistently prioritized cost, schedule, and market competition over the ASME ethical obligation to hold public safety paramount. While individual engineers and managers played roles in these outcomes, the deeper failure lies in a corporate and regulatory culture that discouraged transparency, limited independent review, and normalized risk.
