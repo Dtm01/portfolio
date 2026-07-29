@@ -11,7 +11,7 @@ For my senior design project, I developed a composite layup for an application t
 
 Ansys Granta was used to find the material best suited for a landing gear that has high strength but also low Young's Modulus to increase flexibility of the material to absorb the energy from impact. 
 
-<p align="center">
+<p class="centered-image-block">
   <img src="{{ 'assets/images/Granta.png' | relative_url }}">
   <i>Ansys Granta Material Selection</i>
 </p>
@@ -73,19 +73,18 @@ $$
 These results were then validated through using ANSYS ACP to create a composite layup based on the various materials. This was then put into ANSYS Static Structural which provided data for the stresses at different layers and also provided deflection data for the various layups. Two types of loading were used in ANSYS, one for the ground, demonstrating the static loading when the aricraft is taxiing, and dynamic loading where 3g's of acceleration occue on the landing gear strut. The laminate that had the most displacement was [0,45,0]<sub>s</sub> of [S-glass, S-glass, Kevlar]<sub>s</sub>.
 
 
-
-<div align="center">
-<table>
-  <tr>
-    <td align="center">
-      <img src="{{'assets/images/Dynamicload.png' | relative_url}}"><br>
-      <em><i>Stress on 3rd ply due to Dynamic Loading</i></em>
-    </td>
-    <td align="center">
-      <img src="{{'/assets/images/Displacement.png' | relative_url}}" ><br>
-      <em><i>Displacement due to Dynamic Loading</i></em>
-    </td>
-  </tr>
-</table>
+<div class="centered-image-block">
+  <table>
+    <tr>
+      <td>
+        <img src="{{'assets/images/Dynamicload.png' | relative_url}}"><br>
+        <em><i>CAD of Substrate</i></em>
+      </td>
+      <td>
+        <img src="{{'/assets/images/Displacement.png' | relative_url}}"><br>
+        <em><i>HDPE Substrate</i></em>
+      </td>
+    </tr>
+  </table>
 </div>
 

@@ -1,7 +1,7 @@
 // Default to light theme
 $primary-color: #3a3f58;
 $background-color: #f7f8fa;
-$text-color: #333;
+$text-color: #000;
 
 // Set theme colors based on the color_scheme variable
 @if $color_scheme == 'dark' {
@@ -20,7 +20,7 @@ $text-color: #333;
 
 
 .navbar, h1, h2, h3, h4, h5, h6 {
-  font-family: 'Merriweather', serif;
+  font-family: Arial, sans-serif !important;
   font-weight: 700;
 }
 
@@ -29,7 +29,7 @@ h1 {
 }
 
 body {
-  font-family: "Open Sans", 'Montserrat', 'Helvetica Neue' sans-serif;
+  font-family: Arial, sans-serif !important;
   line-height: 1.6;
   background-color: $background-color;
   color: $text-color;
@@ -54,7 +54,7 @@ footer {
 }
 
 .container {
-  max-width: 600px;
+  max-width: 800px;
 }
 
 .project-item img {

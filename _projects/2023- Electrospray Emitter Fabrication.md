@@ -2,7 +2,7 @@
 layout: project
 title: Alumina Ceramic Electrospray Emitter Substrate Fabrication
 description: Research
-technologies: [Ansys Granta, SolidWorks, Resin Printing, SEM]
+technologies: [Ansys Granta, SolidWorks, Stereolithography, SEM]
 image: assets/images/emittersem.jpeg
 ---
 
