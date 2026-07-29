@@ -11,7 +11,7 @@ For a lab-based heat transfer and fluids course, teams were asked to make wind t
 
 After choosing the optimal wind speed, the RPM was chosen. The maximum allowed was 2000 RPM, so for safety, an RPM of 1500 was chosen. The arifoil was chosen next based on the highest CL/CD with the longest range of the angle-of-attack at which the CL/CD occurred. This was chosen to be the S1223, an airfoil used in wind turbine applications and best for low Reynolds number flow, an inherent part of low wind speed. The length constraint was 6 in and the team constrained the chord to 2 in at the base to maximize surface area for air flow. 
 
-<p align="center">
+<p class="centered-image-block">
   <img src="{{ 'assets/images/airfoil.png' | relative_url }}" width="400">
   <i>S1223 Airfoil</i>
 </p>
