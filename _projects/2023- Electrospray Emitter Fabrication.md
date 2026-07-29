@@ -36,7 +36,7 @@ To create more consistent and reliable substrates, ANSYS Granta was used to find
         <em><i>CAD of Substrate</i></em>
       </td>
       <td>
-        <img src="{{ 'assets/images/hole.png' | relative_url }}" width="100"><br>
+        <img src="{{ 'assets/images/hole.png' | relative_url }}" width="200"><br>
         <em><i>HDPE Substrate</i></em>
       </td>
     </tr>

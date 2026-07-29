@@ -1,8 +1,8 @@
 ---
 layout: project
-title: Generative Design
-description: Generative Design of a Gear
-technologies: [Fusion360, Generative Design, ANSYS]
+title: Car Design Optimization
+description: CFD on car design minimizing drag
+technologies: [Fusion, ANSYS CFD]
 image: 
 ---
 

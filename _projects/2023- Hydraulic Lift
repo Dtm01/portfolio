@@ -3,15 +3,28 @@ layout: project
 title: Hydraulic Lift
 description: Mechanical Synthesis Project
 technologies: [Fusion 360, Laser Cutting, Stereolithography]
-image: 
+image: assets/images/lift.jpg
 ---
 
 Many staff at Cornell are required to lift heavy objects from ground level to waist height or higher as part of their daily work, often leading to physical strain. Our team set out to design a solution to reduce this burden. After evaluating several concepts, including a screw-driven platform and a collapsible lifting mechanism, we selected a hybrid design combining a scissor lift with a cart and a hydraulic actuation system to balance strength and portability.
 
 The final design enables users to raise objects from the ground to approximately waist height, reducing back strain during lifting. The system was modeled in Fusion 360, incorporating multiple joints and moving components to demonstrate an understanding of mechanical assemblies and motion.
 
-<!-- Add rendered images           lift, underlift-->
 
+<div class="centered-image-block">
+  <table>
+    <tr>
+      <td>
+        <img src="{{ 'assets/images/lift.jpg' | relative_url }}" width="200"><br>
+        <em><i>CAD of Substrate</i></em>
+      </td>
+      <td>
+        <img src="{{ 'assets/images/underlift.png' | relative_url }}" width="200"><br>
+        <em><i>HDPE Substrate</i></em>
+      </td>
+    </tr>
+  </table>
+</div>
 
 
 

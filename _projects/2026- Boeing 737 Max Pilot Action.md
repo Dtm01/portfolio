@@ -1,8 +1,8 @@
 ---
 layout: project
-title: Generative Design
-description: Generative Design of a Gear
-technologies: [Fusion360, Generative Design, ANSYS]
+title: Boeing 737 Max 9 Pilot Action Simulation
+description: Pilot Action Simulation
+technologies: [MATLAB]
 image: 
 ---
 
