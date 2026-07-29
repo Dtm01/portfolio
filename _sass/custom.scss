@@ -108,6 +108,35 @@ footer {
   vertical-align: top;
 }
 
+.centered-image-block {
+  text-align: center;
+  margin: 20px 0 25px;
+}
+
+.centered-image-block img {
+  display: block;
+  margin: 0 auto 8px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.centered-image-block i,
+.centered-image-block em {
+  display: block;
+  text-align: center;
+  font-style: italic;
+}
+
+.centered-image-block table {
+  margin: 0 auto;
+}
+
+.centered-image-block td {
+  text-align: center;
+}
+
 .inline-image {
   max-width: 350px;
   margin: 0px 25px 15px 25px;
