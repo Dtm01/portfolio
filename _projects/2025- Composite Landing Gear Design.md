@@ -7,7 +7,7 @@ image: assets/images/strut.png
 ---
 
 
-For a senior design project, we were asked to create a layup for an object that does not currrently use composites. I chose to work on aluminum landing gear, used for RC aircrafts. The main purpose of this was to increase the strength-to-weight ratio and allow for the landing gear to absorb more of the impact of landing. Some of the constraints included a 4 in clearance from the ground (even with deflection) and transition of wing loading to landing gear loading. 
+For my senior design project, I developed a composite layup for an application that traditionally does not use composites. I focused on aluminum landing gear used in RC aircraft, with the goal of improving the strength-to-weight ratio while increasing impact energy absorption during landing. Key design constraints included maintaining a 4-inch ground clearance under load (including deflection) and effectively transferring wing loads to the landing gear structure. 
 
 Ansys Granta was used to find the material best suited for a landing gear that has high strength but also low Young's Modulus to increase flexibility of the material to absorb the energy from impact. 
 
