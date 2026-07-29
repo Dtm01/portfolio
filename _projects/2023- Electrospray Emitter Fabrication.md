@@ -9,7 +9,7 @@ image: assets/images/emittersem.jpeg
 
 ASTRA Lab at Cornell University works on various space propulsion systems. My research project within the lab was to create a more effecient process for fabricating electrospray emitters made of alumina ceramic. This process included resin-printing substrates of the emitter, sanding this substrate at micron-level grit, adding a cone-shaped tip using nanofabrication techniques, and then filling the substrate with an alumina ceramic slurry. The next step included debinding by burning the resin mold and sintering the emitter. This technique is consistent with slurry-based additive manufacturing and its heat treatment. 
 
-<p align="center">
+<p class="centered-image-block">
   <img src="{{ 'assets/images/process.png' | relative_url }}" width="600">
   <i>Process of Electrospray Emitter Fabrication</i>
 </p>
@@ -19,7 +19,7 @@ Resin-printing the substrate took the longest amount of time within the process 
 
 
 
-<p align="center">
+<p class="centered-image-block">
   <img src="{{ 'assets/images/deform.png' | relative_url }}"  width="200">
   <i>Warped Resin Substrate</i>
 </p>
@@ -28,19 +28,19 @@ Resin-printing the substrate took the longest amount of time within the process 
 To create more consistent and reliable substrates, ANSYS Granta was used to find materials that had the most similar properties to the emitter tip mold, IP-Q. When the tip was fabricated, the entire substrate was put into PGMEA and IPA, so the material chosen had to be resistant to those chemicals. It also had to have the closest debinding temperature to IP-Q. With these parameters, the best material was found to be HDPE. Insstead of printing with HDPE and leading to the same warping issues, using a a high-powered laser beam to cut the center hole was a better fit. The CAD below is what the original resin-printed version would have looked like, and the HDPE below shows a more centered and precise hole. 
 
 
-<div align="center">
-<table>
-  <tr>
-    <td align="center">
-      <img src="{{'assets/images/picture.png' | relative_url}}" width="200"><br>
-      <em><i>CAD of Substrate</i></em>
-    </td>
-    <td align="center">
-      <img src="{{'assets/images/hole.png' | relative_url}}" width="100"><br>
-      <em><i>HDPE Substrate</i></em>
-    </td>
-  </tr>
-</table>
+<div class="centered-image-block">
+  <table>
+    <tr>
+      <td>
+        <img src="{{ 'assets/images/picture.png' | relative_url }}" width="200"><br>
+        <em><i>CAD of Substrate</i></em>
+      </td>
+      <td>
+        <img src="{{ 'assets/images/hole.png' | relative_url }}" width="100"><br>
+        <em><i>HDPE Substrate</i></em>
+      </td>
+    </tr>
+  </table>
 </div>
 
 

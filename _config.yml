@@ -13,7 +13,7 @@ title_separator          : "-"
 subtitle                 : Portfolio
 name                     : Diya Mehta
 description              : Diya Mehta- Projects and CV 
-baseurl                  : "/fa25-portfolio-dtm96-blip/" # Set this to your repo name 
+baseurl                  : "/portfolio/" # Set this to your repo name 
 
 # Theme and Style
 theme: jekyll-theme-minimal
