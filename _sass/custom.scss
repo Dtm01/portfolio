@@ -131,10 +131,18 @@ footer {
 
 .centered-image-block table {
   margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 16px 0;
 }
 
 .centered-image-block td {
   text-align: center;
+  vertical-align: top;
+  padding: 0;
+}
+
+.centered-image-block td img {
+  margin-bottom: 6px;
 }
 
 .inline-image {
