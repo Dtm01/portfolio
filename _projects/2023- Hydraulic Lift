@@ -11,30 +11,19 @@ Many staff at Cornell are required to lift heavy objects from ground level to wa
 The final design enables users to raise objects from the ground to approximately waist height, reducing back strain during lifting. The system was modeled in Fusion 360, incorporating multiple joints and moving components to demonstrate an understanding of mechanical assemblies and motion.
 
 
-<div class="centered-image-block">
-  <table>
-    <tr>
-      <td>
-        <img src="{{ 'assets/images/lift.jpg' | relative_url }}" width="200"><br>
-        <em><i>CAD of Substrate</i></em>
-      </td>
-      <td>
-        <img src="{{ 'assets/images/underlift.png' | relative_url }}" width="200"><br>
-        <em><i>HDPE Substrate</i></em>
-      </td>
-    </tr>
-  </table>
-</div>
 
 
+<p class="centered-image-block">
+  <img src="{{ 'assets/images/underlift.jpg' | relative_url }}"  width="400">
+  <i>Bottom of Lift</i>
+</p>
 
 In the initial prototype, the scissor arms were fabricated from 1/4-inch laser-cut acrylic. The hydraulic system consisted of PVC components, a resin 3D-printed piston seal, and an O-ring for sealing. A commercially sourced relief valve was integrated, and the hydraulic mechanism was positioned beneath the lift platform, with an external piston used for manual force input. The prototype weighed approximately 12 lbs and was capable of lifting loads up to 50 lbs.
 
 <p class="centered-image-block">
-  <img src="{{ 'assets/images/reallift.jpg' | relative_url }}"  width="200">
+  <img src="{{ 'assets/images/realift.jpg' | relative_url }}"  width="400">
   <i>Lift Prototype</i>
 </p>
-
 
 
 Several challenges arose during development, primarily due to material and budget constraints. With a $250 budget limit, PVC was the primary machinable material available, and manufacturing labor was also factored into material choices. As a result, the hydraulic system was not fully sealed, leading to leakage and an inability to maintain sufficient pressure, which limited lift height to only a few inches. Additionally, fabrication with thicker plywood proved difficult without access to laser cutting, requiring manual cutting and sanding processes that reduced dimensional accuracy and tolerances.
