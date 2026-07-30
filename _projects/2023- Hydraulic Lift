@@ -2,7 +2,7 @@
 layout: project
 title: Hydraulic Lift
 description: Mechanical Synthesis Project
-technologies: [Fusion 360, Laser Cutting, Stereolithography]
+technologies: [Fusion, Laser Cutting, Stereolithography]
 image: assets/images/lift.jpg
 ---
 

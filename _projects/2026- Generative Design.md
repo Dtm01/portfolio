@@ -2,8 +2,8 @@
 layout: project
 title: Generative Design
 description: Generative Design of a Gear
-technologies: [Fusion360, Generative Design, ANSYS]
-image: 
+technologies: [Fusion, Generative Design, ANSYS FEA]
+image: assets/images/finalgear.png
 ---
 
 
@@ -41,9 +41,9 @@ Using Fusion 360’s generative design tools, I explored multiple configurations
 
 The optimized gear achieved:
 
-~45% mass reduction compared to the original geometry
-Factor of safety ≈ 1.7 under 1000 N loading
-Maximum stress ≈ 139 MPa, below material yield (~240 MPa)
+~ 45% mass reduction compared to the original geometry
+~ Factor of safety ≈ 1.7 under 1000 N loading
+~ Maximum stress ≈ 139 MPa, below material yield (~240 MPa)
 
 
 
@@ -53,8 +53,6 @@ Maximum stress ≈ 139 MPa, below material yield (~240 MPa)
 </p>
 
 To validate the design, I conducted finite element analysis in both Fusion 360 and ANSYS.
-
-[Place Image 5: Stress analysis comparison (Fusion vs ANSYS)]
 
 
 <div class="centered-image-block">
@@ -74,3 +72,5 @@ To validate the design, I conducted finite element analysis in both Fusion 360 a
 
 
 Both simulations showed consistent stress distribution patterns, with peak stresses occurring in the internal load-bearing members rather than the gear teeth. This confirms that preserving the tooth geometry prevented stress concentration at the contact surfaces, while the optimized internal structure efficiently transferred loads to the shaft. Differences in absolute stress values between the two tools highlighted variations in modeling assumptions, but overall trends aligned, supporting the design’s reliability.
+
+

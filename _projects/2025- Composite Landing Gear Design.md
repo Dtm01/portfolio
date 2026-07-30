@@ -2,7 +2,7 @@
 layout: project
 title: Composite Landing Gear Design
 description: Senior Design Project
-technologies: [MATLAB, ANSYS Granta, ANSYS, SolidWorks]
+technologies: [MATLAB, ANSYS Granta, ANSYS FEA, SolidWorks]
 image: assets/images/strut.png
 ---
 

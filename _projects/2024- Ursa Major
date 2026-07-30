@@ -2,8 +2,68 @@
 layout: project
 title: Ursa Major
 description: Design Build Fly 2024 Plane
-technologies: [SolidWorks, LaTeX]
+technologies: [SolidWorks, LaTeX, XFLR5]
 image: 
 ---
 
+<h2>Rules</h2>
+The 2023-2024 competition had a theme of urban mobility where "pilots" (crew) flew passengers and were used for medical transport. The overall rules included these constraints on the aircraft:
 
+~ Maximum of 5 ft wingspan
+
+~ In parking configuration, the aircraft must fit in a 2.5 ft wide space
+
+~ Passengers are wooden dolls of size 3.5 in tall and a base diameter of 1.5 in (exact dolls provided)
+
+~ Pilots are separate and in front of the passengers and/or EMTs and the patient.
+
+
+Missions
+
+Ground Mission: Time for to put plane in flight ready configuration, load passengers, unload passengers, put plane in parking configuration
+
+Mission 1: Crew only flight, 3 laps
+
+Mission 2: Crew + EMTs + patient+ Medical Supply Cabinet, 3 laps
+
+Mission 3: Crew and Passengers, 5 minute window
+
+
+Goals
+
+~ Maximize medical supply cabinet weight 
+
+~ Maximize number of passengers
+
+~ Minimize lap times
+
+~ Minimize ground mission time by making efficient loading and parking systems
+
+
+
+<h2>Swivel Wing</h2>
+To meet the competition's parking constraint (2.50 ft width), Ursa Major required a wing that could rotate 90 degrees to align with the fuselage. I was responsible for the design and fabrication of the swivel wing integration piece, the critical mechanical interface between the wing spar and fuselage.
+
+The integration piece consisted of two 3D-printed Onyx components joined around a ball bearing, allowing relative rotation while maintaining structural integrity under aerodynamic loads. I worked with a fellow team member to include the following constraints:
+
+~ clearances to achieve sufficient friction for ground handling
+
+~ locking features to prevent in-flight rotation
+
+~ ensure compatibility with the carbon fiber spars
+
+
+
+
+<h2>Wing Manufacturing</h2>
+I contributed directly to the manufacturing and assembly of the wing, a tapered high-wing with flaperon control surfaces. My work included:
+
+
+~ Laser-cutting ribs, stringers, and servo plates from basswood and balsa
+
+~ Assembling the wing structure using wood glue and epoxy
+
+~ Installing the experimental dowel rod hinge system for control surfaces, including polystyrene foam leading edges to reduce aerodynamic gaps
+
+
+I also took responsibility for servo validation, ensuring the EcoPower 640T servos provided sufficient torque (64 oz-in) to deflect control surfaces against aerodynamic loads—directly addressing a failure mode identified in Iteration 1 flight testing.
