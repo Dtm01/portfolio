@@ -6,8 +6,6 @@ technologies: []
 image: assets/images/chainsaw.jpg
 ---
 
-
-
 <h2>Inital Dissection</h2>
 For MAE 3260, the Fluid Dynamics course, we are given an object and must find at least one fluid component to analyze wihtin that object. We were given a chainsaw and in the dissection process, we came across many fluid mechanical devices: fuel lines & containers, a venturi within the carburetor, a combustion chamber, roller bearings, and journal bearings. 
 
