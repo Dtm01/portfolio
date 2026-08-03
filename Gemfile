@@ -1,10 +1,14 @@
-# frozen_string_literal: true
-
 source "https://rubygems.org"
 
+gem "jekyll", "~> 4.4"
+
+gem "jekyll-theme-minimal"
+
 gem "kramdown-parser-gfm"
-
-gem "jekyll-include-cache"
 gem "jekyll-feed"
+gem "jekyll-include-cache"
 
-gem "github-pages", group: :jekyll_plugins
+group :jekyll_plugins do
+  gem "jekyll-seo-tag"
+  gem "jekyll-sitemap"
+end
