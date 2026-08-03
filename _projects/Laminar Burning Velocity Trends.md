@@ -36,7 +36,7 @@ When comparing fuels at the same pressure, higher flame temperature generally me
         <em><i>a. Adiabatic Flame Temperature</i></em>
       </td>
       <td>
-        <img src="{{ 'assets/images/velpress.png' | relative_url }}" width="200"><br>
+        <img src="{{ 'assets/images/velvpress.png' | relative_url }}" width="200"><br>
         <em><i> b. Flame Speed</i></em>
       </td>
     </tr>

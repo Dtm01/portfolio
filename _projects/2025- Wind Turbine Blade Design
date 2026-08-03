@@ -6,9 +6,9 @@ technologies: [Fusion, MATLAB]
 image: assets/images/turbine.png
 ---
 
-
+<h2>Background</h2>
 For a lab-based heat transfer and fluids course, teams were asked to make wind turbine blades based on previous labs, running at low wind speeds but optimizing for power. To find the optimal wind speed, the Weibull distribution was used to find the most frequent wind speed that occurs in the wind tunnel. 4.8 m/s was the most frequent wind speed, and therefore the chosen one, which corresponds closest to 9 Hz (5 m/s). 
-
+<h2>Calculation</h2>
 After choosing the optimal wind speed, the RPM was chosen. The maximum allowed was 2000 RPM, so for safety, an RPM of 1500 was chosen. The arifoil was chosen next based on the highest CL/CD with the longest range of the angle-of-attack at which the CL/CD occurred. This was chosen to be the S1223, an airfoil used in wind turbine applications and best for low Reynolds number flow, an inherent part of low wind speed. The length constraint was 6 in and the team constrained the chord to 2 in at the base to maximize surface area for air flow. 
 
 <p class="centered-image-block">
@@ -25,7 +25,7 @@ After the choice of airfoil, a pitch was found to keep the airfoil at various cr
   <i>Blade CAD</i>
 </p>
 
-
+<h2>Testing</h2>
 Testing began by running the wind tunnel with an empty test section to establish a correlation between fan frequency and tunnel airspeed using pitot-static tube measurements. After securely installing the wind turbine and closing the access hatch, power curves were collected at wind speeds of 2.7, 3.9, 4.4, and 5.0 m/s, with approximately 20–30 measurements per speed. For each test, the torque brake voltage was initially set to zero, and the tunnel speed was gradually increased to the target value while monitoring RPM and current to remain below safety limits of 3000 RPM and 0.09 A. Once steady state was reached, the brake voltage was increased incrementally until the turbine stopped, allowing the system to stabilize at each step before recording data. Additional data were collected with smaller voltage increments when necessary to better capture behavior near stall. Power versus RPM curves were then generated for each wind speed to identify maximum power output and assess whether the turbine achieved optimal performance near the design conditions.
 
 <p class="centered-image-block">
@@ -33,6 +33,7 @@ Testing began by running the wind tunnel with an empty test section to establish
   <i>Experimental Power Curve</i>
 </p>
 
+<h2>Results</h2>
 The results show a strong relationship between wind speed and power output, with a line of best fit demonstrating an excellent correlation and an  $\R^2$ value of 0.9974. As expected, the trend passes through the origin since no power is generated in the absence of airflow. Maximum measured power occurred at 5.0 m/s, suggesting that the optimal operating wind speed may not yet have been reached, although the limited number of data points makes extrapolation uncertain. While the data indicate a continual increase in power with wind speed, real-world turbine behavior is expected to peak near the design speed and decrease thereafter. Peak power occurred near 1000 RPM, below the design RPM of 1500, which may help explain why the measured peak power of approximately 0.9 W was lower than the predicted 1.6 W. Despite time constraints limiting testing above 5.0 m/s, the turbine operated safely and produced peak power close to the design wind speed of 4.8 m/s, indicating that the design was largely successful.
 
 <p class="centered-image-block">

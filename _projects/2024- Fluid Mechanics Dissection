@@ -1,9 +1,80 @@
 ---
 layout: project
-title: Chainsaw 
+title: Chainsaw Dissection 
 description: Fluid Mechanics Dissection Project
 technologies: []
 image: 
 ---
 
-For a class project in Fluid Mechanics, I dissected a chainsaw to analyze its fluid systems, including fuel delivery and lubrication. This project involved understanding the mechanics of fluid flow within the chainsaw and how it contributes to the overall performance and efficiency of the tool.
+
+<h2>Inital Dissection</h2>
+For MAE 3260, the Fluid Dynamics course, we are given an object and must find at least one fluid component to analyze wihtin that object. We were given a chainsaw and in the dissection process, we came across many fluid mechanical devices: fuel lines & containers, a venturi within the carburetor, a combustion chamber, roller bearings, and journal bearings. 
+
+For our analysis we have decided to focus on the carburetor, in turn incorporating information about the combustion chamber. 
+
+
+Focusing on carburetor and the combustion chamber:
+
+1. The narrowing, nozzle-like geometry of venturi accelerates intake fluid and decreases its pressure
+
+2. Fuel is drawn into the carburetor at this low pressure region
+
+3. Piston strokes draw fluid into the combustion chamber and compress it
+
+4. Spark plug ignites the fluid and the explosion restarts the process
+
+
+The fluid ends up doing some interesting things:
+
+- Before the throat → High P, Accelerating Fluid
+
+- At throat → Low P, Highest Velocity
+
+- After throat → New Density, Velocity Decrease 
+
+
+
+<h2>Model</h2>
+The main models we use for our analysis are incompressible, isentropic and steady flow. Incompressible flow assumes that as pressure and velocity change, density does not and the velocities throughout are below Mach .3, so this is a valid assumption. The isentropic model states that there is no major heat or viscous losses which also implies inviscid flow; we will use this model only for air. Steady flow assumes that flow is time-invariant yielding mass conservation. 
+
+
+The general equations for this analysis include Bernoulli's equation along a horizontal streamline, mass conservation, the Reynolds number equation, Colebrook-White, and Bernoulli equation with viscous losses. 
+- Bernoulli’s equation (horizontal streamline):  
+  $$
+  p + \frac{1}{2}\rho U^2 + \rho g h = B
+  $$
+
+- Mass conservation:  
+  $$
+  \rho_1 U_1 A_1 = \rho_2 U_2 A_2
+  $$
+
+- Reynolds number:  
+  $$
+  Re = \frac{\rho U L}{\mu}
+  $$
+
+- Colebrook–White equation:  
+  $$
+  f_a = \left(-2 \log_{10} \left( \frac{\epsilon}{3.7 d_f} + \frac{2.51}{Re \sqrt{f_a}} \right)\right)^{-2}
+  $$
+
+- Bernoulli equation with viscous losses:  
+  $$
+  \Delta B = \frac{1}{2}\rho U^2 f_a \frac{L}{d_f}
+  $$
+
+Assumptions made in our analysis include gravitational potential effects are negligible, all initial state reservoirs are at atmospheric pressure, and the rotational rate of the engine was approximated from other general models. 
+
+
+<h2>Results</h2>
+Calculations results in the calculate Re at the throat before the fuel mixes with air to be about 270,000. Because it is greater than 2,500, we can assume the flow is turbulent which is expected for a carburetor. If the air was in a laminar regime, it would not mix well with the evaporated fuel. Viscosity was assumed to be constant, but it would likely have some changes during mixed, but because Re is so high, the flow would remain turbulent at the exit of the carburetor.
+
+The fuel in the tube has a much lower Reynolds number. This is because the dynamic viscosity of fuel is higher, the tube is longer and much narrower, and there are many more viscous losses. Because this Reynolds number is below 2500, the gasoline in the tube exhibits laminar flow. 
+
+<h2>What ifs?</h2>
+What if we increased the size of the entire unit? If we increase the unit by a factor of s, the throat velocity will increase by s, meaning the pressure drop will increase by s squared. Thus, the fuel velocity will increase by s as well, What is interesting is the fuel percentage will stay the same. This is due to the proportionalities of the ratio, and because it is a uniform scale up!
+
+What if we increase the viscosity of the air itself? We could no longer ignore viscous effects and the reynolds number would enter the laminar regime. This system would not function properly as there would be great losses and improper mixing due to lack of turbulence.
+
+What if we wanted a richer fuel mixture? We could increase the fuel line area, this would directly increase the flow rate of fuel as well as decreasing the viscous losses. We could also decrease the fuel line length. This would allow for less viscous losses, and therefore more fuel into the engine. The inverse of these statements are true if we wanted a less rich mixture. 

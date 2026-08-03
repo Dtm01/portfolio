@@ -30,7 +30,6 @@ The baseline gear had a 140 mm diameter with 12 teeth and a 10 mm shaft bore. To
 
 To enable meaningful optimization, I defined preserve and obstacle regions within the design space. The gear teeth and shaft interface were preserved to maintain proper meshing and integration, while surrounding regions were constrained to prevent unwanted deformation. The remaining volume between the inner hub and outer ring was left open for material redistribution, allowing the algorithm to generate efficient internal load paths. A minimum factor of safety of 1.2 was enforced.
 
-[Place Image 3: Preserve and obstacle geometry setup]
 
 <p class="centered-image-block">
   <img src="{{ 'assets/images/genconstraint.png' | relative_url }}"  width="400">
