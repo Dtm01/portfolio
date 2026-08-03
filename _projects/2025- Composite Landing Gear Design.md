@@ -6,9 +6,11 @@ technologies: [MATLAB, ANSYS Granta, ANSYS FEA, SolidWorks]
 image: assets/images/strut.png
 ---
 
-
+<h2>Background</h2>
 For my senior design project, I developed a composite layup for an application that traditionally does not use composites. I focused on aluminum landing gear used in RC aircraft, with the goal of improving the strength-to-weight ratio while increasing impact energy absorption during landing. Key design constraints included maintaining a 4-inch ground clearance under load (including deflection) and effectively transferring wing loads to the landing gear structure. 
 
+
+<h2>Composite Selection</h2>
 Ansys Granta was used to find the material best suited for a landing gear that has high strength but also low Young's Modulus to increase flexibility of the material to absorb the energy from impact. 
 
 <p class="centered-image-block">
@@ -19,11 +21,11 @@ Ansys Granta was used to find the material best suited for a landing gear that h
 
 4 materials were considered and combinations of these were input into a MATLAB script which used principles of composite design to output interlaminar stresses to determine the best landing gear layup. The script was based on lamination theory equations. 
 
-
+<h2>Analysis</h2>
 
 ## Lamination Theory Equations
 
-### A, B, D Matrices
+#### A, B, D Matrices
 
 **A matrix:**
 
@@ -43,7 +45,7 @@ $$
 D_{i,j} = \frac{1}{3} \sum_{k=1}^{n} Q_{i,j}^{k} (h_k^3 - h_{k-1}^3)
 $$
 
-### Strain-Moment Relation
+#### Strain-Moment Relation
 
 $$
 \begin{bmatrix}
@@ -61,7 +63,7 @@ M
 \end{bmatrix}
 $$
 
-### Stress in Ply
+#### Stress in Ply
 
 $$
 \{\sigma\}^{k} = [\bar{Q}]^{k} \{\varepsilon^0\} + [\bar{Q}]^{k}_z \{\kappa\}
@@ -69,7 +71,7 @@ $$
 
 
 
-
+<h2>Results</h2>
 These results were then validated through using ANSYS ACP to create a composite layup based on the various materials. This was then put into ANSYS Static Structural which provided data for the stresses at different layers and also provided deflection data for the various layups. Two types of loading were used in ANSYS, one for the ground, demonstrating the static loading when the aricraft is taxiing, and dynamic loading where 3g's of acceleration occue on the landing gear strut. The laminate that had the most displacement was [0,45,0]<sub>s</sub> of [S-glass, S-glass, Kevlar]<sub>s</sub>.
 
 
@@ -78,11 +80,11 @@ These results were then validated through using ANSYS ACP to create a composite 
     <tr>
       <td>
         <img src="{{'assets/images/Dynamicload.png' | relative_url}}"><br>
-        <em><i>CAD of Substrate</i></em>
+        <em><i>Acceleration Loading Case</i></em>
       </td>
       <td>
         <img src="{{'/assets/images/Displacement.png' | relative_url}}"><br>
-        <em><i>HDPE Substrate</i></em>
+        <em><i>Ground Loading Case</i></em>
       </td>
     </tr>
   </table>
