@@ -3,15 +3,18 @@ layout: project
 title: Chainsaw Dissection 
 description: Fluid Mechanics Dissection Project
 technologies: []
-image: 
+image: assets/images/chainsaw.jpg
 ---
-
 
 <h2>Inital Dissection</h2>
 For MAE 3260, the Fluid Dynamics course, we are given an object and must find at least one fluid component to analyze wihtin that object. We were given a chainsaw and in the dissection process, we came across many fluid mechanical devices: fuel lines & containers, a venturi within the carburetor, a combustion chamber, roller bearings, and journal bearings. 
 
 For our analysis we have decided to focus on the carburetor, in turn incorporating information about the combustion chamber. 
 
+<p class="centered-image-block">
+  <img src="{{ 'assets/images/carbur.jpg' | relative_url }}"  width="400">
+  <i>Carburetor and Combustion Chamber</i>
+</p>
 
 Focusing on carburetor and the combustion chamber:
 
@@ -37,6 +40,20 @@ The fluid ends up doing some interesting things:
 <h2>Model</h2>
 The main models we use for our analysis are incompressible, isentropic and steady flow. Incompressible flow assumes that as pressure and velocity change, density does not and the velocities throughout are below Mach .3, so this is a valid assumption. The isentropic model states that there is no major heat or viscous losses which also implies inviscid flow; we will use this model only for air. Steady flow assumes that flow is time-invariant yielding mass conservation. 
 
+<div class="centered-image-block">
+  <table>
+    <tr>
+      <td>
+        <img src="{{ 'assets/images/diagram 1.png' | relative_url }}" width="200"><br>
+        <em><i>Stress Analysis in Fusion</i></em>
+      </td>
+      <td>
+        <img src="{{ 'assets/images/diagram 2.jpg' | relative_url }}" width="200"><br>
+        <em><i>Stress Analysis in ANSYS</i></em>
+      </td>
+    </tr>
+  </table>
+</div>
 
 The general equations for this analysis include Bernoulli's equation along a horizontal streamline, mass conservation, the Reynolds number equation, Colebrook-White, and Bernoulli equation with viscous losses. 
 - Bernoulli’s equation (horizontal streamline):  

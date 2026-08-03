@@ -40,9 +40,9 @@ Using Fusion 360’s generative design tools, I explored multiple configurations
 
 The optimized gear achieved:
 
-~ 45% mass reduction compared to the original geometry
-~ Factor of safety ≈ 1.7 under 1000 N loading
-~ Maximum stress ≈ 139 MPa, below material yield (~240 MPa)
+- 45% mass reduction compared to the original geometry
+- Factor of safety ≈ 1.7 under 1000 N loading
+- Maximum stress ≈ 139 MPa, below material yield (~240 MPa)
 
 
 

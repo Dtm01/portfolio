@@ -2,8 +2,119 @@
 layout: project
 title: Composite Layup Process
 description: Composite Research for DBF
-technologies: [SolidWorks, LaTeX, ANSYS]
-image: 
+technologies: [ANSYS ACP, ANSYS CFD, ANSYS FEA]
+image: assets/images/fuselage.png
 ---
 
+<h2>Motivation</h2>
+Cornell's Design Build Fly team relied almost entirely on wood for aircraft manufacturing prior to 2022. The one exception was a carbon fiber nose cone, for which the manufacturing process, materials list, and even the year it was made had been completely lost. With no institutional knowledge to build on and growing evidence that top-competing teams were winning largely due to carbon fiber's exceptional strength-to-weight ratio, I took it upon myself to start from scratch and develop an in-house composites manufacturing capability for the team. This project began in Fall 2023 and remains ongoing.
+
+<h2>Research & Process Development</h2>
+Before any fabrication could begin, I spent significant time researching carbon fiber layup processes. There was no shortage of information on the material properties and benefits of composites using outside resources, but practical manufacturing documentation for parts with the geometries we needed, hollow wings, spars, and fuselages, was almost nonexistent within the team. I built out a composites research library under the DBF 23-24's semester projects, documenting multiple manufacturing methods for parts with different structural requirements. I also collaborated with the Cornell Baja SAE composites team lead, learning their vacuum bagging layup procedure and adapting it for our purposes. Their process was designed for larger, flatter surfaces, so significant modification was needed to apply it to hollow, aerodynamically shaped aircraft components.
+
+The core layup process involves impregnating carbon fiber sheets with epoxy resin before laying them over a mold. The assembly is built up in layers shown in figure 1, mastic tape seals the edges to a flat surface, a vacuum head is placed beneath the vacuum bag, and a pipe connects it to a vacuum pump outside. The entire layup must remain under vacuum for a minimum of 12 hours, so parts were left overnight. This was the barebones of the process and is still being iterated to this day.
+
+<p class="centered-image-block">
+  <img src="{{ 'assets/images/layup.png' | relative_url }}"  width="400">
+  <i> Layup Process</i>
+</p>
+
+
+<h2>Carbon Fiber Spar</h2>
+The first fabrication target was the wing spar, a hollow, square cross-section tube that serves as the primary load-bearing structure of the aircraft. Purchased spars were consistently the single largest line item in the team's annual budget, making in-house fabrication a high-value goal. To create a dissolvable mandrel, I 3D printed a solid rectangular prism using a filament that could be dissolved in a diluted chemical bath after the carbon fiber cured around it, leaving a hollow spar behind.
+
+For the layup itself, I used two layers of carbon fiber oriented in different directions, one with fibers running horizontally and vertically, and a second layer oriented diagonally. This cross-ply approach takes advantage of the directional nature of carbon fiber's strength, producing a spar that resists both axial and shear loading more effectively than a single-orientation layup.
+
+<div class="centered-image-block">
+  <table>
+    <tr>
+      <td>
+        <img src="{{ 'assets/images/3dspar.jpg' | relative_url }}" width="200"><br>
+        <em><i>3D Printed Spar</i></em>
+      </td>
+      <td>
+        <img src="{{ 'assets/images/spardone.jpg' | relative_url }}" width="200"><br>
+        <em><i>Completed Spar</i></em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+
+
+The first result was far from perfect. The cross-section was not square, sections of the carbon fiber had lifted away from the mandrel, epoxy coverage was uneven, and a ridge had formed along the full length of the part where layers overlapped at the edges. An additional issue arose from the cutting process, masking tape is necessary when cutting carbon fiber to prevent the fibers from fraying, but the tape blocked epoxy from saturating the fibers in those regions, leaving dry spots visible as a lack of surface sheen. Despite these flaws, the spar was structurally promising and represented the team's first successful in-house carbon fiber fabrication. Each flaw was documented alongside proposed solutions: reducing layer overlap by precisely pre-measuring and cutting the carbon fiber, orienting the spar vertically during cure so excess epoxy pools toward the bottom where it can be trimmed, and saturating the fiber with excess resin before layup to ensure full coverage.
+
+<div class="centered-image-block">
+  <table>
+    <tr>
+      <td>
+        <img src="{{ 'assets/images/sparridge.jpg' | relative_url }}" width="200"><br>
+        <em><i>Curved Edge on Spar</i></em>
+      </td>
+      <td>
+        <img src="{{ 'assets/images/sparseam.jpg' | relative_url }}" width="200"><br>
+        <em><i>Unimpregnated gaps</i></em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+
+
+
+
+<h2>Hollow Wing</h2>
+Following the spar work, I turned to wing fabrication. Rather than a dissolvable 3D-printed mandrel, this iteration used a foam core with a layer of peel ply between the foam and the carbon fiber. The peel ply acts as a release layer, once the carbon fiber cures, the peel ply allows the shell to be separated from the foam, and the foam core can be cut out, yielding a hollow wing. The carbon fiber was cut much more precisely to the wing dimensions this time and wrapped more tightly around the mold, producing a result noticeably cleaner with little to no gaps in epoxy spread and a smooth useable part.
+
+However, a critical structural issue became clear: without any internal support, the hollow shell had almost no resistance to compression. A light squeeze of the wing caused the walls to buckle inward, and it was clear the part would snap under any real aerodynamic load. The takeaway was that a hollow wing is not viable without internal structure, ribs, a spar, or a honeycomb core would be necessary to make it structurally sound. While this wing was not flight-ready, it validated the peel ply release method and marked a significant step forward in process understanding. I also used this fabrication session as a teaching opportunity, walking other team members through the layup process to begin building composites knowledge across the team.
+
+
+<div class="centered-image-block">
+  <table>
+    <tr>
+      <td>
+        <img src="{{ 'assets/images/wingdone.png' | relative_url }}" width="200"><br>
+        <em><i>Hollow Wing: Top View</i></em>
+      </td>
+      <td>
+        <img src="{{ 'assets/images/hollowwing.png' | relative_url }}" width="200"><br>
+        <em><i>Hollow Wing: Side View</i></em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+
+
+
+<h2> Hot Wire Foam Glider </h2>
+For the 2024-2025 competition, I built a miniature glider out of foam using a hot wire cutter. While this part was not intended for carbon fiber layup, it was a valuable experiment in foam shaping as a potential precursor to composite manufacturing. The hot wire cutter works by passing a heated wire through foam at a controlled speed, but achieving clean, accurate airfoil shapes by hand proved to be extremely difficult. The wire speed had to be carefully regulated throughout the cut, too fast and the wire drags and distorts the shape, too slow and it melts away more material than intended. Getting consistent results required a lot of trial and error to find the right speed for each cut, and even then the surfaces required cleanup. Despite these challenges, the process gave valuable insight into what it would take to produce foam cores precise enough to serve as molds for carbon fiber layups. Foam cores are an attractive option because they are lightweight, easy to shape relative to machined molds, and can remain inside the part to add some structural support. This experiment helped establish what level of precision is achievable with a hot wire setup and what would need to improve before foam cores could be reliably used as a base for composite layups.
+
+<h2>Carbon Fiber Fuselage</h2>
+In the following year, the composites effort scaled up significantly with the fabrication of a full fuselage. Unlike the spar or wing, the fuselage had an egg-like, compound-curved geometry, a shape that presents serious challenges when trying to lay a flat, two-dimensional woven fabric over a three-dimensional surface without wrinkles, bridging, or voids. This required careful thought about how to CAD the mold for manufacturability, specifically how to split the geometry into segments that could each be laid up on a flat surface and then joined.
+
+The fuselage was fabricated in two halves, which were then bonded together. There were initial concerns about whether the bond line would be structurally adequate, but load testing confirmed the assembled fuselage could support approximately 40 lbs, more than sufficient for our aircraft's requirements. This part was not just a prototype; it was integrated into the actual competition aircraft, making it the first structural composite airframe component the team had successfully flown.
+
+
+<div class="centered-image-block">
+  <table>
+    <tr>
+      <td>
+        <img src="{{ 'assets/imagesfuselagerend.png' | relative_url }}" width="200"><br>
+        <em><i>Yeagerflug Fuselage Rendering</i></em>
+      </td>
+      <td>
+        <img src="{{ 'assets/images/fusealge.png' | relative_url }}" width="200"><br>
+        <em><i>Fuselage: Front View</i></em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+
+
+<h2>Future Work</h2>
+Across these iterations, the most consistent lessons have been about the relationship between CAD, mold design, and manufacturability. Carbon fiber does not conform to geometry the way wet layup intuition suggests, compound curves require either gored cuts in the fabric, pre-formed pieces, or careful mold splitting. Epoxy management, fiber orientation, vacuum integrity, and release strategy all interact in ways that only become apparent through fabrication. Documenting each attempt, including failures, has been as important as the parts themselves, ensuring that the knowledge built up through this project does not disappear the way the original nose cone documentation did.
+
+Future work focuses on a full-sized carbon fiber wing with an internal lightweight foam structure and integrated control surfaces. This would combine the hollow wing manufacturing technique with the internal support lessons learned from structural testing, and would represent a complete, flight-ready composite lifting surface, the most complex part the team has attempted to fabricate in-house.
 
