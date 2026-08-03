@@ -179,7 +179,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 20px;
-  padding: 20px;
+  // padding: 20px;
   margin: 0 auto;
   max-width: 100%;
 }
@@ -190,6 +190,10 @@ footer {
   transition: transform 0.3s ease;
   max-width: 250px; 
   max-height: 300px; 
+}
+
+.gallery-card {
+  background-color: black;
 }
 
 .gallery-item img {
