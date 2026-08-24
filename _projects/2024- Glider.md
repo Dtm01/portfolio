@@ -3,7 +3,7 @@ layout: project
 title: Glider
 description: Long Range Glider
 technologies: [MATLAB, Solidworks]
-image: assets/images/
+image: assets/images/glider.png
 ---
 
 <h2>Introduction</h2>

@@ -3,7 +3,7 @@ layout: project
 title: Ursa Major
 description: Design Build Fly 2024 Plane
 technologies: [SolidWorks, LaTeX, XFLR5, Rhino]
-image: 
+image: assets/images/ursa.png
 ---
 
 <h2>Rules</h2>
@@ -52,6 +52,10 @@ The integration piece consisted of two 3D-printed Onyx components joined around 
 
 - ensure compatibility with the carbon fiber spars
 
+<p class="centered-image-block">
+  <img src="{{ 'assets/images/integration.png' | relative_url }}" width="400">
+  <i>Swivel Wing Integration</i>
+</p>
 
 
 
@@ -67,3 +71,9 @@ I contributed directly to the manufacturing and assembly of the wing, a tapered 
 
 
 I also took responsibility for servo validation, ensuring the EcoPower 640T servos provided sufficient torque (64 oz-in) to deflect control surfaces against aerodynamic loads—directly addressing a failure mode identified in Iteration 1 flight testing.
+
+<p class="centered-image-block">
+  <img src="{{ 'assets/images/wingspar.png' | relative_url }}" width="400">
+  <i>Wing Structure CAD</i>
+</p>
+
