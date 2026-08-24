@@ -1,9 +1,9 @@
 ---
 layout: project
-title: Glider
-description: Long Range Glider
-technologies: [MATLAB, Solidworks]
-image: assets/images/
+title: Papa's Planeria - Glider Design
+description: Aerodynamics Design Project
+technologies: [Aircraft Design, Aerodynamics, SolidWorks, Hand Fabrication]
+image: assets/images/glider.png
 ---
 
 <h2>Introduction</h2>
@@ -16,13 +16,8 @@ The motivation for this project was to design a glider capable of collecting atm
 The S9037 airfoil with 9% camber was chosen for its slight camber, which increases lift generation, its strong performance at low Reynolds numbers, and its ability to generate meaningful lift even at negative angles of attack.
 
 <p class="centered-image-block">
-  <img src="{{ 'assets/images/gliderairfoil.png' | relative_url }}">
-  <i>S9037 Airfoil Shape</i>
-</p>
-
-<p class="centered-image-block">
-  <img src="{{ 'assets/images/airfoilcharts.png' | relative_url }}">
-  <i>Cl/Cd Performance Curves</i>
+  <img src="{{ 'assets/images/s9037-airfoil-polars.png' | relative_url }}">
+  <i>S9037 Airfoil Shape and Cl/Cd Performance Curves</i>
 </p>
 
 **Wing and Tail Sizing**
@@ -36,8 +31,8 @@ $$
 Using $l_v = 30$ cm and a tail volume ratio $v_v = 0.035$ (within the typical 0.02–0.05 range), the required vertical stabilizer surface area was found to be $S_v = 85.33\ \text{cm}^2$. A trapezoidal shape was chosen for the vertical stabilizer to reduce stagnation pressure at the leading edge and encourage upward airflow. The horizontal stabilizer was sized as 15% of the wing surface area (within the recommended ⅛–⅙ range), giving $137.145\ \text{cm}^2$, realized as a 9.14 cm × 15 cm rectangle.
 
 <p class="centered-image-block">
-  <img src="{{ 'assets/images/dimension.png' | relative_url }}">
-  <i>Dimensioned Sketch of the Earth Glider (in cm)</i>
+  <img src="{{ 'assets/images/glider-sizing-sketch.png' | relative_url }}">
+  <i>Hand Calculations and Dimensioned Sketch of the Earth Glider</i>
 </p>
 
 **Fabrication**
@@ -45,7 +40,7 @@ Using $l_v = 30$ cm and a tail volume ratio $v_v = 0.035$ (within the typical 0.
 The fuselage used roughly 40 cm of spruce wood, with ⅛" balsa wood (~350 cm² total, oversized to account for cutting losses) for the stringers, ribs, and tail. Only the top half of each airfoil profile was laser cut to reduce mass, and approximately ⅓ of the provided clay was packed into the nose to shift the center of gravity forward toward the quarter-chord point. Tissue paper (~1200 cm²) was applied to smooth the airfoil surfaces, and the assembly was completed with super glue.
 
 <p class="centered-image-block">
-  <img src="{{ 'assets/images/glider.png' | relative_url }}">
+  <img src="{{ 'assets/images/assembled-glider-photo.png' | relative_url }}">
   <i>Assembled Earth Glider</i>
 </p>
 
@@ -126,4 +121,3 @@ $$
 **Validity and Future Improvements**
 
 We consider the Earth glider a reasonable approximation for the Tarrytown design, since both are matched on Reynolds and Mach number despite Earth's launch-height limitations. Going forward, we identified several improvements: reducing mass through cutouts in the tail (and correspondingly less nose clay), using the full airfoil profile rather than just the top surface to generate more lift and simplify tissue paper wrapping, and revising the stringer notch geometry to avoid cutting off the trailing edge. We are still weighing whether to reduce or increase overall mass, since our test flight showed the glider was light but not very stable in wind. We also mistakenly bonded the vertical stabilizer in the wrong orientation during assembly, an error to correct in the next iteration.
-
