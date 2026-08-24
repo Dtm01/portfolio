@@ -259,6 +259,16 @@ footer {
   text-decoration: none;
 }
 
+@media (max-width: 800px) {
+  .project-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-card {
+    width: 100%;
+  }
+}
+
 .gallery-item:hover {
   transform: scale(1.05); 
 }
