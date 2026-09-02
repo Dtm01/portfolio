@@ -3,7 +3,7 @@ layout: project
 title: Car Design Optimization
 description: CFD on car design minimizing drag
 technologies: [Fusion, ANSYS CFD]
-image: assets/images/newcar.png
+image: assets/images/newcarvel.png
 ---
 
 
@@ -33,6 +33,11 @@ Below was the base car's velocity, and the car had a drag coefficient of 0.30.
 The redesigned car featured a sharper nose and an extended body length of approximately 4.3 m. The front profile was adjusted to have a more gradual incline from the nose to the highest point of the vehicle, reducing the likelihood of early flow separation. Similarly, the rear geometry was modified with a smoother, more gradual decline to minimize separation in the wake region, where it is most significant.
 
 The tire placement remained fixed to meet the required constraints, and the vehicle height was set to 1.36 m, just above the minimum requirement of 1.35 m. The sharper nose design was inspired by high-performance sports cars, which use low inclines and reduced frontal height to decrease aerodynamic drag.
+
+<p class="centered-image-block">
+  <img src="{{ 'assets/images/newcar.png' | relative_url }}">
+  <i>New Car CAD</i>
+</p>
 
 The resulting design showed a clear improvement in aerodynamic performance. Velocity contour analysis indicated smoother flow over the body with a maximum velocity of 37.9 m/s, and the drag coefficient decreased to approximately 0.25, representing a significant reduction compared to the baseline design.
 
