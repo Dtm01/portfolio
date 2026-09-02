@@ -54,7 +54,7 @@ q \\
 \end{bmatrix}
 $$
 
----
+
 
 ### Transfer Function
 
@@ -87,7 +87,7 @@ If these requirements are not met, the aircraft could become uncontrollable, lea
 I focused on creating the block diagram model that was later used in Simulink to implement a PID controller for pitch control. My task was to optimize the controller by adjusting the proportional, integral, and derivative gains to achieve minimal overshoot and steady-state error. Starting with our approximated values (K<sub>p</sub> = 1.515, K<sub>i</sub> = 0.1774, K<sub>d</sub>. = 0), we iteratively tuned the gains in Simulink until all design requirements were satisfied.
 
 
-<h2>Perferomance</h2>
+<h2>Performance</h2>
 
 <p class="centered-image-block">
   <img src="{{ 'assets/images/5degreeplot.png' | relative_url }}"  width="400">
@@ -170,7 +170,7 @@ $$
 = [1.36]
 $$
 
----
+
 
 ### Pitch Rate
 

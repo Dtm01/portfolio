@@ -13,7 +13,7 @@ The final design enables users to raise objects from the ground to approximately
 
 
 <p class="centered-image-block">
-  <img src="{{ 'assets/images/underlift.jpg' | relative_url }}"  width="400">
+  <img src="{{ 'assets/images/underlift.png' | relative_url }}"  width="400">
   <i>Bottom of Lift</i>
 </p>
 

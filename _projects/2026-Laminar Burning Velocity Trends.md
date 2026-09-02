@@ -12,7 +12,7 @@ Understanding how pressure affects flame propagation is critical for designing r
 <h2>Model</h2>
 Cantera's free flame solver was used to model a one-dimensional, adiabatic, premixed flame at stoichiometric conditions (φ = 1.0) over a pressure range of 0.1–20 atm. Key modeling choices and assumptions included:
 <p class="centered-image-block">
-  <img src="{{ 'assets/images/combchart.png' | relative_url }}"  width="500">
+  <img src="{{ 'assets/images/combchart.png' | relative_url }}"  width="600">
 </p>
 
 
@@ -32,11 +32,11 @@ When comparing fuels at the same pressure, higher flame temperature generally me
   <table>
     <tr>
       <td>
-        <img src="{{ 'assets/images/tempvpress.png' | relative_url }}" width="200"><br>
+        <img src="{{ 'assets/images/tempvpress.png' | relative_url }}" width="300"><br>
         <em><i>a. Adiabatic Flame Temperature</i></em>
       </td>
       <td>
-        <img src="{{ 'assets/images/velvpress.png' | relative_url }}" width="200"><br>
+        <img src="{{ 'assets/images/velvpress.png' | relative_url }}" width="300"><br>
         <em><i> b. Flame Speed</i></em>
       </td>
     </tr>

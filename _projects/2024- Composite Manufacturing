@@ -100,11 +100,11 @@ The fuselage was fabricated in two halves, which were then bonded together. Ther
   <table>
     <tr>
       <td>
-        <img src="{{ 'assets/imagesfuselagerend.png' | relative_url }}" width="200"><br>
+        <img src="{{ 'assets/images/fuselagerend.png' | relative_url }}" width="200"><br>
         <em><i>Yeagerflug Fuselage Rendering</i></em>
       </td>
       <td>
-        <img src="{{ 'assets/images/fusealge.png' | relative_url }}" width="200"><br>
+        <img src="{{ 'assets/images/fuselage.png' | relative_url }}" width="200"><br>
         <em><i>Fuselage: Front View</i></em>
       </td>
     </tr>
